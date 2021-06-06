@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".KarachiFragment">
+
+    <ImageView
+        android:id="@+id/karachiImage"
+        android:layout_width="413dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/karachi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/karachiText"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="151dp"
+        android:text="Karachi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karachiImage" />
+
+    <TextView
+        android:id="@+id/karachiTextD"
+        android:layout_width="291dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="144dp"
+        android:text="Karachi is the largest city in Pakistan and the twelfth largest city in the world. It is the capital of the Pakistani province of Sindh. Ranked as a beta-global city,[18][19] the city is Pakistan's premier industrial and financial centre"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karachiText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

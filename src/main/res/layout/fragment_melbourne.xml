@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MelbourneFragment">
+
+    <ImageView
+        android:id="@+id/melbourneImage"
+        android:layout_width="413dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/melbourne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/melbourneTextD"
+        android:layout_width="334dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:text="Melbourne is the capital and most-populous city of the Australian state of Victoria, and the second-most populous city in Australia and Oceania Its name refers to an urban agglomeration of 9,993 km2 (3,858 sq mi),[10] comprising a metropolitan area with 31 municipalities,[11] and is also a common name for its city centre."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/melbourneText" />
+
+    <TextView
+        android:id="@+id/melbourneText"
+        android:layout_width="193dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="109dp"
+        android:text="Melbourne"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/melbourneImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

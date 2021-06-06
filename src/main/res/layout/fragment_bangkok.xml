@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".BangkokFragment">
+
+    <ImageView
+        android:id="@+id/bangkokImage"
+        android:layout_width="407dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="3dp"
+        android:src="@drawable/bangkok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bangkokText"
+        android:layout_width="131dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="140dp"
+        android:text="Bangkok"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bangkokImage" />
+
+    <TextView
+        android:id="@+id/bangkokTextD"
+        android:layout_width="278dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="78dp"
+        android:text="Bangkok is the capital and most populous city of Thailand. It is known in Thai as Krung Thep Maha Nakhon or simply Krung Thep"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bangkokText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
